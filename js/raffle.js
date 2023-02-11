@@ -87,7 +87,6 @@ function remainingParticipants() {
 	}
 	return participants;
 }
-
 function Ticket(name, points){
 	this.name = name;
 	if(typeof(points) == "number")
