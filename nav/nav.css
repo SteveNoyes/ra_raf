@@ -1,0 +1,133 @@
+body, html {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  padding: 2em;
+}
+
+header .logo {
+  color: black;
+  font-weight: bold;
+}
+
+header .menu-btn {
+  width: 18px; 
+  float: right; 
+  cursor: pointer;
+}
+
+section {
+  padding: 4em;
+}
+
+section h1 {
+  font-size: 4em;
+  margin: 1em auto;
+  width: 70%;
+}
+
+section h1::before {
+  content: " ";
+  border-top: 5px solid lightgray;
+  display: block;
+}
+
+nav {
+  position: absolute;
+  background: black;
+  padding: 2em;
+  width: calc(100% - 4em);
+  height: calc(100% - 4em);
+  display: none;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+nav .close-btn {
+  width: 18px;
+  float: right;
+  cursor: pointer;
+  color: red;
+  opacity: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 10% auto 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  width: 80%;
+}
+
+nav ul a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+nav ul span {
+  color: gray;
+  display: block;
+  font-size: .75em;
+  margin-top: 20px;
+}
+
+nav ul li {
+  opacity: 0;
+}
+
+.show-menu {
+  display: block;
+  animation: slide-menu 1s ease-in forwards;
+}
+
+.show-menu .close-btn {
+  animation: show-x 1s 1s forwards;
+}
+
+li:nth-of-type(1) {
+  animation: menu-item .6s forwards 1s ease-in-out;
+}
+li:nth-of-type(2) {
+  animation: menu-item .6s forwards 1s ease-in-out;
+}
+li:nth-of-type(3) {
+  animation: menu-item .6s forwards 1s ease-in-out;
+}
+li:nth-of-type(4) {
+  animation: menu-item .6s forwards 1s ease-in-out;
+}
+
+@keyframes slide-menu {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@keyframes show-x {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes menu-item-anim {
+  from {
+    transform: translateY(60%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
