@@ -1,0 +1,24 @@
+.winnertext{
+  font-weight: 500;
+  font-size: 40px;
+  color: #4c27a3;
+}
+.winnerno{
+  background-color: #ffd800;
+  font-family: 'Teko', sans-serif;
+  font-weight: 600;
+  font-size: 75px;
+  border: 2px solid #fa9747;
+  border-radius: 10px;
+  margin-bottom: 0px;
+  color: #482cc2;
+}
+.btn{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+#footer2 {
+  background: #531f00;
+}
