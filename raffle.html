@@ -1,8 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Name Picker</title>
 	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>	
-	<script src = 'js/jquery-ui-1.8.23.custom.min.js'></script>
+	<script src = "js/jquery-ui-1.8.23.custom.min.js"></script>
 	<script type="text/javascript" src="js/names.js"></script>	
 	<script type="text/javascript" src="js/raffle.js"></script>	
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,9 +16,9 @@
 	<div class="header">
 		<span>Participants:<b id="participant-number"></b></span>
 	</div>
-	<div class='enter-names'>
+	<div class="enter-names">
 		<p>Enter names separated by newlines:</p>
-		<textarea class='name-text-field'></textarea>
+		<textarea class="name-text-field"></textarea>
       <div><input id="remove-winners-input" type="checkbox" onclick="toggleRemoveWinners();" checked="checked"/><label for="remove-winners-input">Remove winners after drawing</label></div>
       <div><input id="number-of-winners-input" type="number" value="1" min="1" max="999" required/><label for="number-of-winners-input">Number of winners per drawing</label></div>
 		<button onclick="process();">Import</button>
