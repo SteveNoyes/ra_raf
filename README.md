@@ -8,7 +8,6 @@
   - [Built with](#built-with)
   - [Featured Section](#featured-section)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 ## Overview
 
@@ -119,8 +118,3 @@ Make a GUI for selection and drawing.
 - [Title](https://www.site.com) - Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 
 - [Title](https://www.site.com) - Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-
-## Author
-
-- Website - [Portfolio](https://www.stevenmnoyes.com)
-- GitHub - [SteveNoyes](https://github.com/SteveNoyes)
