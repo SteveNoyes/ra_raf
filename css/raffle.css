@@ -58,7 +58,6 @@ button {
   -moz-user-select:none;
   -khtml-user-select:none;
 }
-
 .load:hover{
 	background: palegreen;
 }
