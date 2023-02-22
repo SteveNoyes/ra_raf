@@ -43,7 +43,6 @@ input[type="checkbox"], input[type="number"] {
 button {
 	float: right;
 }
-
 .load {
 	border:1px solid grey;
 	width:60px;
